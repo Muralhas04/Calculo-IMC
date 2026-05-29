@@ -5,8 +5,10 @@ imc = peso / (altura_m ** 2)
 print(f"O seu IMC é: {imc:.2f}")
 
 if imc < 18.5:
-    print("Fora do peso normal")
+    print("abaixo do peso")
 elif 18.5 <= imc < 25:
     print("Peso normal")
+elif 25 <= imc < 30:
+    print("excesso de peso")
 else:
-    print("Fora do peso normal")
+    print("Obesidade")
